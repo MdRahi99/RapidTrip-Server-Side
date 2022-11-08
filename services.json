@@ -1,0 +1,68 @@
+[
+    {
+        
+        "service_id": "01",
+        "title": "Solo travel",
+        "img": "https://www.solitarytraveller.com/wp-content/uploads/2020/11/solo_travelling_banner.jpg",
+        "price": "2000.00",
+        "ratings":"4.0",
+        "views":"200",
+        "description": "You don't need to consult anyone else to make plans, and you can go to that obscure place you've always wanted to visit. If you haven't yet travelled alone, this is the first experience you should try.So, what are you waiting for? If you want to travel to your own tune, you'll be in good company with On The Go Tours. Lots of our travellers arrive alone and leave with lifelong friends. With shared authentic experiences in far-flung destinations, our tours for singles are the perfect chance to create lasting friendships."
+   
+    },
+    {
+        
+        "service_id": "02",
+        "title": "Travel with family",
+        "img": "https://www.hlimg.com/images/stories/738X538/NEW-44757397_m-610x350_1535451420m.jpg",
+        "price": "5000.00",
+        "ratings":"4.6",
+        "views":"500",
+        "description": "The beginning of your career as lifelong adventurer may well have been with your family. At any age, travel with our families can help us form an idea of what we want - and don't want - out of travel. Do you want more freedom, or do you enjoy the structure of a family trip?While spontaneous excursions have made for some great family memories, a little bit of planning goes a long way towards keeping our travels smooth. When you are ready to get out and explore, we are there for you and your family to help plan or inspire your next journey."
+       
+    },
+    {
+        
+        "service_id": "03",
+        "title": "Travel with friends",
+        "img": "https://images.squarespace-cdn.com/content/v1/5beb0a44f2e6b1113f9519d9/1614112219528-3ENWM1NWNRNUYC88NO08/Travelling+with+Friends+Quotes.jpg?format=1000w",
+        "price": "3500.00",
+        "ratings":"5",
+        "views":"679",
+        "description": "You explore distant lands together, immerse yourself in new cultures, have an unforgettable adventure, and support each other through every up and down along the way!These trips take your friendship to a whole new level and forge memories you will hold onto forever.  At Travel with Friends, we customize reliable and trustworthy Religious Tours, Educational Tours, Vacation Travel, and Cruises to destinations all over the world."
+      
+    },
+    {
+        
+        "service_id": "04",
+        "title": "The group tour",
+        "img": "https://cdn.tourradar.com/s3/content-pages/963/1024x460/bKR8Ig.jpeg",
+        "price": "8000.00",
+        "ratings":"4.5",
+        "views":"412",
+        "description": "Travelling with a group is another must-do. Try it while you're young and get to know dozens of fellow students, perhaps by making Europe your playgroundor another city that piques your interest. No matter where you want to visit and how you wish to spend your trip, there's likely a group tour for it.Explore 350+ trips led by expert guides. Share unforgettable travel experiences with new friends from around the world. Book now!!! Travel on a group tour with Go Ahead. Discover the 175+ guided tours we offer across all 7 continents. Talk to our knowledgeable staff today"
+    
+    },
+    {
+        
+        "service_id": "05",
+        "title": "The package trip",
+        "img": "https://www.tourismnewslive.com/wp-content/uploads/2021/11/1634534424_radisson-blu-resort-maldives.jpg.jpg",
+        "price": "4000.00",
+        "ratings":"3.9",
+        "views":"216",
+        "description": "Pick your beach and let the travel agent do the rest for you. You probably won't learn a new language or meet the locals, but that's not really what a package trip is about. Let hardcore travellers say what they want, but you've deserved at least one week's holiday of no planning or obligations.Book cheap vacation packages & trips for romantic travel, family vacations and weekend getaways! Find the best travel deals & package discounts and Enjoy our cheap Holiday packages from Bangladesh and create your own most memorable moment and a trip to remember your loved ones."
+     
+    },
+    {
+        
+        "service_id": "06",
+        "title": "Multi-day tour or cruise",
+        "img": "https://tourscanner.com/blog/wp-content/uploads/2018/10/multi_day_tours.jpg",
+        "price": "2500.00",
+        "ratings":"4.1",
+        "views":"234",
+        "description": "Multi-day tours and cruises are a great use for your travel savings. One of your long-term goals might be a journey to Antarctica, spending two weeks on a cruise ship spellbound by towering icebergs or kayaking in protected waters. Here you find the highest quality in planned and customized tours and cruise vacations. Our multi-day tours are designed for small-group experiences. Based on a fixed itinerary, they let you discover the real destination. You can plan multi-day Tours on our website. So let's get started!!!"
+   
+    }
+  ]
