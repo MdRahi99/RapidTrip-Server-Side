@@ -22,21 +22,28 @@ async function run(){
             const cursor = serviceCollection.find(query);
             const services = await cursor.toArray();
             res.send(services);
-        })
+        });
 
         app.get('/services/:id', async(req, res) => {
             const id = req.params.id;
             const query = {_id: ObjectId(id)};
             const service = await serviceCollection.findOne(query);
             res.send(service);
-        })
+        });
 
         // FeedBacks Api
         app.post('/feedbacks', async(req, res) => {
             const feedback = req.body;
             const result = await feedBackCollection.insertOne(feedback);
             res.send(result);
-        })
+        });
+
+        app.get('/feedbacks', async(req, res) => {
+            const query = {};
+            const cursor = feedBackCollection.find(query);
+            const feedbacks = await cursor.toArray();
+            res.send(feedbacks);
+        });
     }
     finally{
 
