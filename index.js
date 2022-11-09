@@ -39,11 +39,25 @@ async function run(){
         });
 
         app.get('/feedbacks', async(req, res) => {
-            const query = {};
+            let query = {};
+
+            if(req.query.email){
+                query = {
+                    email: req.query.email
+                }
+            };
+
             const cursor = feedBackCollection.find(query);
             const feedbacks = await cursor.toArray();
             res.send(feedbacks);
         });
+
+        app.delete('/feedbacks/:id', async(req, res) => {
+            const id = req.params.id;
+            const query = {_id: ObjectId(id)};
+            const result = await feedBackCollection.deleteOne(query);
+            res.send(result);
+        })
     }
     finally{
 
