@@ -15,6 +15,7 @@ const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology:
 async function run(){
     try{
         const serviceCollection = client.db('rapidTrip').collection('services');
+        const feedBackCollection = client.db('rapidTrip').collection('feedbacks');
 
         app.get('/services', async(req, res) => {
             const query = {}
@@ -28,6 +29,13 @@ async function run(){
             const query = {_id: ObjectId(id)};
             const service = await serviceCollection.findOne(query);
             res.send(service);
+        })
+
+        // FeedBacks Api
+        app.post('/feedbacks', async(req, res) => {
+            const feedback = req.body;
+            const result = await feedBackCollection.insertOne(feedback);
+            res.send(result);
         })
     }
     finally{
