@@ -28,6 +28,13 @@ async function run() {
       res.send(services);
     });
 
+    app.get("/service", async (req, res) => {
+      const query = {};
+      const cursor = serviceCollection.find(query);
+      const services = await cursor.limit(3).toArray();
+      res.send(services);
+    });
+
     app.post("/services", async (req, res) => {
       const postServices = req.body;
       const result = await serviceCollection.insertOne(postServices);
